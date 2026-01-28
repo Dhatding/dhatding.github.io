@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToStart = document.getElementById("back_to_start");
     if (backToStart) {
         backToStart.onclick = function() {
-            window.location.href = "../files/quiz_start.html";
+            window.location.href = "../quiz_start.html";
         }
     }
 })
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ1 = document.getElementById("back_to_q1");
     if (backToQ1) {
         backToQ1.onclick = function() {
-        window.location.href = "../questions/q1.html";
+        window.location.href = "questions/q1.html";
         }
     }
 })
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ2 = document.getElementById("back_to_q2");
     if (backToQ2) {
         backToQ2.onclick = function() {
-        window.location.href = "../questions/q2.html";
+        window.location.href = "questions/q2.html";
         }
     }
 })
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ3 = document.getElementById("back_to_q3");
     if (backToQ3) {
         backToQ3.onclick = function() {
-        window.location.href = "../questions/q3.html";
+        window.location.href = "questions/q3.html";
         }
     }
 })
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ4 = document.getElementById("back_to_q4");
     if (backToQ4) {
         backToQ4.onclick = function() {
-        window.location.href = "../questions/q4.html";
+        window.location.href = "questions/q4.html";
         }
     }
 })
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ5 = document.getElementById("back_to_q5");
     if (backToQ5) {
         backToQ5.onclick = function() {
-        window.location.href = "../questions/q5.html";
+        window.location.href = "questions/q5.html";
         }
     }
 })
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ6 = document.getElementById("back_to_q6");
     if (backToQ6) {
         backToQ6.onclick = function() {
-        window.location.href = "../questions/q6.html";
+        window.location.href = "questions/q6.html";
         }
     }
 })
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ7 = document.getElementById("back_to_q7");
     if (backToQ7) {
         backToQ7.onclick = function() {
-        window.location.href = "../questions/q7.html";
+        window.location.href = "questions/q7.html";
         }
     }
 })
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ8 = document.getElementById("back_to_q8");
     if (backToQ8) {
         backToQ8.onclick = function() {
-            window.location.href = "../questions/q8.html";
+            window.location.href = "questions/q8.html";
         }
     }
 })
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ9 = document.getElementById("back_to_q9");
     if (backToQ9) {
         backToQ9.onclick = function() {
-            window.location.href = "../questions/q9.html";
+            window.location.href = "questions/q9.html";
         }
     }
 })
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ10 = document.getElementById("back_to_q10");
     if (backToQ10) {
         backToQ10.onclick = function() {
-            window.location.href = "../questions/q10.html";
+            window.location.href = "questions/q10.html";
         }
     }
 })
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ11 = document.getElementById("back_to_q11");
     if (backToQ11) {
         backToQ11.onclick = function() {
-            window.location.href = "../questions/q11.html";
+            window.location.href = "questions/q11.html";
         }
     }
 })
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToQ12 = document.getElementById("back_to_q12");
     if (backToQ12) {
         backToQ12.onclick = function() {
-            window.location.href = "../questions/q12.html";
+            window.location.href = "questions/q12.html";
         }
     }
 })
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToListening = document.getElementById("back_to_listening");
     if (backToListening) {
         backToListening.onclick = function() {
-            window.location.href = "../questions/qlistening.html";
+            window.location.href = "questions/qlistening.html";
         }
     }
 })
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward1) {
         forward1.onclick = function() {
             if (localStorage.getItem("quiz_notes") != "" && localStorage.getItem("quiz_notes") != null) {
-                window.location.href = "../questions/q1.html";
+                window.location.href = "questions/q1.html";
             }
             else {
                 alert("Bitte lesen Sie die Instruktionen.");
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 activation_1 = true;
             }
             if (activation_1 == true) {
-                window.location.href = "../questions/q2.html";
+                window.location.href = "questions/q2.html";
             }
             else {
                 alert("Es sind noch nicht alle Aufgaben des Santis Logos ausgewählt worden, oder eine Aufgabe wurde fälschlicherweise ausgewählt.");
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 activation_2 = true;
             }
             if (activation_2 == true) {
-                window.location.href = "../questions/q3.html";
+                window.location.href = "questions/q3.html";
             }
             else {
                 alert("Es ist entweder ein falsches Element in einer Zone oder eine wichtige Zone ist leer.");
@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward4) {
         forward4.onclick = function() {
             if (activation_3_1 && activation_3_2) {
-                window.location.href = "../questions/q4.html";
+                window.location.href = "questions/q4.html";
             }
             else {
                 alert("Die Grössen des Logos sind nicht korrekt eingestellt.");
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward5) {
         forward5.onclick = function() {
             if (activation_4_1 && activation_4_2) {
-                window.location.href = "../questions/q5.html";
+                window.location.href = "questions/q5.html";
             }
             else {
                 alert("Das Verhältnis der Abstände zum Logo ist nicht korrekt.");
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward6) {
         forward6.onclick = function() {
             if (activation_5) {
-                window.location.href = "../questions/q6.html";
+                window.location.href = "questions/q6.html";
             }
             else {
                 alert("Das ist nicht der richtige Pantone Farbcode.");
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward7) {
         forward7.onclick = function() {
             if (activation_6) {
-                window.location.href = "../questions/q7.html";
+                window.location.href = "questions/q7.html";
             }
             else {
                 alert("Das ist nicht die richtige HEX-Farbe gemäss CI/CD der Santis.");
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward8) {
         forward8.onclick = function() {
             if (activation_7) {
-                window.location.href = "../questions/q8.html";
+                window.location.href = "questions/q8.html";
             }
             else {
                 alert("Hier fehlen entweder noch Schriften oder die Schriften sind nicht korrekt gewählt worden.");
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward9) {
         forward9.onclick = function() {
             if (activation_8) {
-                window.location.href = "../questions/q9.html";
+                window.location.href = "questions/q9.html";
             }
             else {
                 alert("Das ist nicht die richtige Ersatzschrift für Arial.");
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward10) {
         forward10.onclick = function() {
             if (activation_9) {
-                window.location.href = "../questions/q10.html";
+                window.location.href = "questions/q10.html";
             }
             else {
                 alert("Das ist nicht das richtige Format für interne Drucke.");
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward11) {
         forward11.onclick = function() {
             if (activation_10_1) {
-                window.location.href = "../questions/q11.html";
+                window.location.href = "questions/q11.html";
             }
             else {
                 alert("Es sind noch nicht alle gültigen Farbkombinationen ausgewählt worden.");
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward12) {
         forward12.onclick = function() {
             if (activation_11) {
-                window.location.href = "../questions/q12.html";
+                window.location.href = "questions/q12.html";
             }
             else {
                 alert("Das ist nicht die richtige Emailsignatur gemäss CI/CD der Santis.");
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 activation_12 = true;
             }
             if (activation_12 == true) {
-                window.location.href = "../questions/qlistening.html";
+                window.location.href = "questions/qlistening.html";
             }
             else {
                 alert("Die Bilder entsprechen nicht alle den Angaben des CI/CD oder es fehlen noch Bilder in der Auswahl.");
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward_finish) {
         forward_finish.onclick = function() {
             if (activation_listening) {
-                window.location.href = "../files/finish.html";
+                window.location.href = "../finish.html";
             }
             else {
                 alert("Geben Sie die richitge Anzahl Fehler ein und warten Sie bis das Hörverständnis fertig ist.");
