@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/5824af4a98.js" crossorigin="anonymous"></script>
+    <title>Quiz CI/CD SANTIS - Start</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="../media/SANTIS_Logo_2026_RGB.png" alt="SANTIS Logo">
+        <h1>Willkommen zum CI/CD SANTIS Quiz!</h1>
+        <div class="top">
+        </div>
+    </header>
+    <div class="spacer_top">
+    </div>
+    <main class="quiz intro">
+        <p class="intro-text">Um das Logo der Santis nutzen zu dürfen, müssen Sie zuerst das Quiz bestehen.
+        Das Quiz besteht aus 12 Fragen unterschiedlichster Art und einem Hörverständnis.
+        Sie können jederzeit mit dem Pfeil nach links in den Fragen zurück gehen.
+        Sie können mit dem Notizblock-Icon einen Notizblock hervorrufen, in welchem Sie sich gerne Notizen machen dürfen und sollen.
+        Falls Sie die Frage nicht verstehen, dann klicken Sie auf das Fragezeichen unten rechts.
+        Sobald Sie die Frage beantwortet haben, können Sie auf den Pfeil nach rechts klicken, um, bei richtiger Antwort, weiter im Quiz zu sehen.
+        Sie müssen die Frage jeweils richtig beantwortet haben, um fortfahren zu können.</p>
+        <p>Für beste Durchführung wird empfohlen, Google Chrome zu verwenden.</p>
+        <p>Öffnen Sie und schreiben sie etwas in die Notizen, um dann fortfahren zu können.</p>
+        <p>Viel Erfolg!</p>
+        <div class="notes hidden" id="notes">
+            <textarea id="notes_area" placeholder="Hier können Sie sich Notizen machen..."></textarea>
+        </div>
+    </main>
+    <footer class="footer">
+        <i class="fa-regular fa-clipboard" id="notes_button"></i>
+        <i class="fa-solid fa-angle-left" id="back_to_title"></i>
+        <i class="fa-solid fa-chevron-right" id="forward_1"></i>
+        <i class="fa-regular fa-circle-question" id="showHelp"></i>
+        <div id="pop_up_message_help_start" class="help-popup" style="display: none;">
+            <div class="help-popup-content">
+                <span class="close-btn" onclick="closeHelp()">&times;</span>
+                <p class="help-text">Lesen Sie die Instruktionen genau, bei Fragen wenden Sie sich an Ihren Vorgesetzten.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom"></div>
+    <div class="bottom2"></div>
+</body>
+</html>
