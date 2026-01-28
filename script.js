@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let backToStart = document.getElementById("back_to_start");
     if (backToStart) {
         backToStart.onclick = function() {
-            window.location.href = "../files/quiz_start.html";
+            window.location.href = "../quiz_start.html";
         }
     }
 })
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward_finish) {
         forward_finish.onclick = function() {
             if (activation_listening) {
-                window.location.href = "../files/finish.html";
+                window.location.href = "../finish.html";
             }
             else {
                 alert("Geben Sie die richitge Anzahl Fehler ein und warten Sie bis das Hörverständnis fertig ist.");
