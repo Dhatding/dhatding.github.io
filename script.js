@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (forward_finish) {
         forward_finish.onclick = function() {
             if (activation_listening) {
-                window.location.href = "../finish.html";
+                window.location.href = "finish.html";
             }
             else {
                 alert("Geben Sie die richitge Anzahl Fehler ein und warten Sie bis das Hörverständnis fertig ist.");
@@ -1748,4 +1748,5 @@ if (document.querySelector(".qlistening")) {
             }
         }
     })
+
 }
